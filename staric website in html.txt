@@ -1,0 +1,51 @@
+                                        :STATIC WEBSITE IN HTML: 
+                                                             
+                               Home  About  Contact  Admission-form   Gallery
+    <header>
+  A: LOGO                    1.<img src="" alt="">‎ 
+  B: we create hyper links   2.<nav></nav>........(inside header tag)
+  C: in navigation tag       3.<a href="">......</a>
+                             4.<a href="">......</a> etc.
+
+                          FOR HOME.
+  D:First we use section tag  5.<section id="Home">....For recalling of Home page.
+  E:Second we use h1 tag      6.<h1>.......</h1>
+  F:Third we use p tag        7.<p>.............................................................</p> 
+  G:Fourth we use ul tag      8.<ul>
+                         li*4
+</ul>
+     </section>
+                          FOR ABOUT.
+  H:We can also use section tag 9.<section id="About">....For recalling of About page.
+  I:we can also use h1  tag    10.<h1>.........</h1>....For largest heading
+  J:we can also use ul tag     11.<ul>
+                                      li*4
+</il>
+</section> 
+                          FOR CONTACT.
+  K:section tag                12.<section id="Contact">For recalling of Contact page.
+  L:p tag used secondly        13.<p>Address</p>
+  M:we insert address          14.<iframe></iframe>
+  N:we insert link tag         15.<a href="">....</a>
+   </section>
+                          FOR ADMISSION FORM.
+  O:section tag                16.<section id="Admission form">.....For recalling of admission form
+  P:h1 tag                     17.<h1>.....</h1>
+  Q:Form tag                   18.<form>
+              INSIDE FORM TAG WE USE INPUT TAG AND DIFFERENT TYPE ATRRIBUTE VALUE LIKE RADIO,SUBMIT,RESET ETC.
+  R:Input tag                  19.<input type="txt" value="" id="Fulll-name" name="Full-name" placeholder="Full-name">
+
+In this case we don't put any type value in value attribute value="" ...Because in this case we need user input data.
+              <select>
+  S:Use option tag             20.<option value="">.....</option>
+                               21.<option value="">.....</option>
+                               22.<option value="">.....</option>
+                           </select>
+                               </section>
+                          FOR GALLERY.
+T:We use section tag           23.<section id="Gallery">.....For recalling of gallery page.
+U:We use three or four img tag 24.<img src="" alt="">...Just like that
+V:we use fotter tag            25.<fotter>
+                      <small>&copy All right reserved.&reg</small>
+</fotter> 
+</section>
