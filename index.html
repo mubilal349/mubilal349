@@ -1,68 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Login-form</title>
-        <style>
-            h3{
-                border: 2px solid aqua;
-                padding-left: 10%;
-                padding-right: 10%;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body bgcolor="slateblue">
-        <form>
-            <fieldset align="center">
-                <img src="russia-95.webp" alt="russia-95" width="200px"><br>
-                <img src="emplye.jpg" alt="emplye" width="200px" height="90px">
-                <legend>Employee-survey form</legend>
-                <h3 style=background-color:blue;>Employee-survey form</h3><br><br>
-                <video controls loop autoplay muted>
-                    <source src="employee survey.mp4" alt="employee survey">
-                </video><br><br>
-                <label>FULL-NAME:</label>
-                <input type="txt" id="Full-name" value="" name="Full-name" placeholder="Full-name"><br><br>
-                <label>ENTER YOUR DEPARTMENT:</label>
-                <input type="txt" id="department" value="" name="department" placeholder="department"><br><br>
-                <label>EMAIL:</label>
-                <input type="txt" id="Email" value="" name="Email" placeholder="Email"><br><br>
-                <label>PASSWORD:</label>
-                <input type="txt" id="Password" value="" name="Password" placeholder="Password"><br><br>
-                <label>CONFIRM-PASSWORD:</label>
-                <input type="txt" id="Password" value="" name="Password" placeholder="confirm-Password"><br><br>
-                <label>Phone no +92:</label>
-                <input type="txt" id="Phone no" value="" placeholder="Phone no" name="Phone no"><br><br>
-                <label>ZIP-CODE:</label>
-                <input type="txt" id="zip-code" value="" name="zip-code" placeholder="zip-code"> <hr align="center" width="30%"><br><br>
-                <label>select state.</label>
-                <select name="state" placeholder="select state">
-                    <option value="" selected disabled>select state:</option>
-                    <option value="">KPK</option>
-                    <option value="">PUNJAB</option>
-                    <option value="">SINDH</option>
-                    <option value="">BALOCHISTAN</option>
-                    <option value="">GILGIT</option>
-                    <option value="" disabled>Others</option>
-                    </select><br><br>
-                <label>select Qualification.</label>
-                <select name="Qualification" placeholder="select Qualification">
-                    <option value="" selected disabled>select Qualification:</option>
-                    <option value="">Graduate</option>
-                    <option value="">Under Graduate</option>
-                    <option value="">Matric/secondary</option>
-                    <option value="">Student</option>
-                    <option value="">Self-employee</option>
-                    <option value="">Others</option>
-                    </select><br><br>
-                 select gender:
-                <input type="radio" value="" name="gender" placeholder="Male" id="Male">
-                <label for="Male">Male</label>
-                <input type="radio" value="" name="gender" placeholder="Female" id="Female">
-                <label for="Female">Female</label>
-                <input type="radio" value="" name="gender" placeholder="Others" id="Others">
-                <label for="Others">others</label><br><br>
-                <label>select country.</label>
+<html lang="en">
+<head>
+    <title>static website</title>
+</head>
+<body>
+         <header>
+             <fieldset align="middle">
+             <img src="logo.jpg" alt="logo" width="300px">
+             <legend style="color: chocolate;">static website</legend>
+             <nav>
+                 <a href="#Home">Home</a>
+                 <a href="#About">About</a>
+                 <a href="#Contact">Contact</a>
+                 <a href="#Admission-form">Admission-form</a>
+                 <a href="#Gallery">Gallery</a>
+                </fieldset>
+             </nav>
+            </header>
+             <section id="Home">
+                 <h1 style="color: chartreuse;">WELCOME TO SOCIAL WEBSITE.</h1>
+                 <p>This website is about social media and alo some helpful application about social and how we socialized with other people through social media.</p>
+                 <input type="button" value="view more" style="color: crimson;">
+                 <a href="#">Learn more</a>
+                 <ul>
+                 <h1 style="color: cornflowerblue;">HOME</h1>
+                    <li>social communication</li>
+                    <li>oneline dealing</li>
+                    <li>social experience</li>
+                    <li>oneline lerning through social media</li>
+                 </ul>
+             </section>
+             <section id="About">
+                 <h1 style="color: coral;">About</h1>
+                 <p> <code> social media is wide range used in new era.And more advanced feature should add to the website.</code></p>
+                 <ul>
+                     <li>About freelancing</li>
+                     <li>digital marketing</li>
+                     <li>oneline projects</li>
+                     <li>written content</li>
+                 </ul>
+             </section>
+             <section id="Contact">
+                 <h1 style="color: blue;">Contact</h1>
+                 <p>Main bazar,Haji khel banda,Hangu,pakistan.</p>
+                 <a href="tel:0334-4394694">Contact us</a>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.7491818658885!2d71.07855365788!3d33.52755579866148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d85a399d155ddf%3A0x59baae4cc5ee8dc9!2sSaidan%20Banda%20Hangu!5e0!3m2!1sen!2s!4v1648536869547!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </section>
+             <section id="Admission-form">
+                 <form>
+                     <h1 style="color: gold;">Admission-form</h1>
+                     <input type="text" value="" name="Full-name" placeholder="Full-name" id="Full-name"><br><br>
+                     <input type="email" value="" name="email" placeholder="email" id="email"><br><br>
+                     <input type="txt" value="" name="password" id="password" placeholder="password"><br><br>
+                     <input type="password" value="" name="confirm-password" id="confirm-password" placeholder="confirm-paasword"><br><br>
+                     <input type="number" value="" placeholder="phone-no"><br><br>
+                      <input type="text" value="" name="zip-code" id="zip-code" placeholder="zip-code"><br><br>
+                     <label style="color: magenta;"> select gender:</label>
+                     <input type="radio" value="Male" name="gender" id="Male" placeholder="Male">
+                     <label for="Male" style="color: indigo;">Male</label>
+                     <input type="radio" value="Female" name="gender" id="Female" placeholder="Female">
+                     <label for="Female" style="color: lime;">Female</label><br><br>
+                     <label style="color: mediumblue;">select course you want to apply:</label>
+                     <select name="select" placeholder="select course you want to apply">
+                      <option value="" selected disabled>select</option>   
+                     <option value="">WEB DESIGINING</option>
+                     <option value="">GRAPHICS DESIGINING</option>
+                     <option value="">CSS</option>
+                     <option value="">HTML</option>
+                     </select><br><br>
+                     <label style="color: navy;">select country.</label>
                 <select name="country" placeholder="select country">
                 <option value="" selected disabled>select country:</option>
                 <option value="">Pakistan</option>
@@ -72,32 +78,23 @@
                 <option value="">Russia</option>
                 <option value="">USA</option>
                 </select><br><br>
-                Which one are you interesting:
-                <input type="radio" id="part time-job" value=""  name="interesting" placeholder="part time-job">
-                <label for="part time-job">part time-job</label>
-                <input type="radio" id="online-job" value="" name="interesting" placeholder="online-job">
-                <label for="online-job">online-job</label>
-                <br><br>
-                Did you exercise at Home?
-                <input type="radio" id="yes" value="" id="yes" name="exercise" placeholder="yes">
-                <label for="yes">yes</label>
-                <input type="radio" id="no" value="" id="no" name="exercise" placeholder="no">
-                <label for="no">no</label><br><br>
-                <label for="Favorite-colour">select your Favorite-colour:</label>
-                <input type="color" id="color" value="" name="color" ><br><br>
-                <label>UPLOAD YOUR CV:</label>
-                <input type="file" id="file" value="" name="file" placeholder="file"><br><br>
-                <textarea for="tell a little about yourself:">Tell yourself.</textarea><br><br>
                 <input type="submit" value="submit">
                 <input type="reset" value="reset">
-                <input type="button" value="cancel">
-                <input type="button" onclick="alert('THis login-form is about Employee-survey.')" value="click here"><br><br>
-                <a href="https://www.websiteplanet.com">Here to go to planet website</a><br><br>
-                <p>Welcome to Employee-survey form.</p>
-                <footer>
-                    <small>&copy;copyright.All right reserved.&reg;</small>
-                </footer>
-            </fieldset>
-        </form>
-    </body>
+                 </form>
+                 </section>
+                 <section id="Gallery">
+                     <h1 style="color: seagreen;">Gallery</h1>
+                     <marquee behavior="alternate" direction="right">
+                     <img src="download (1).png" alt="download(1)" width="300px">
+                     <img src="download.png" alt="download"><br>
+                     </marquee>
+                     <marquee behavior="alternate" direction="left">
+                     <img src="russia-95.webp" alt="russia" width="250px">
+                     <img src="clouds.jpg" alt="clouds" width="250px"><br>
+                     </marquee>
+                 </section>
+                 <footer align="center">
+                     <small style="color:rgb(231, 24, 93)"> &copy; All right reserved.2022&reg;</small>
+                 </footer>
+</body>
 </html>
