@@ -1,0 +1,39 @@
+                 DIFFERENT BETWEEN STATIC AND DYNAMIC WEBSITE:
+   
+   STATIC WEBSITE:
+1.Static web pages are very simple.
+
+2.It is writeen in languages such as HTML,JAVASCRIPT,CSS,etc.
+
+3.For static web pages when a server sends a request for a web page,
+then the server sends the response to the client without doing any additional process.
+
+4.And these web pages are seen through a web browser.
+
+5.In static web pages,pages will remain the same until someone changes it manually.
+
+                            
+                            STEP1:HTTP REQUEST
+           WEB BROWSER  ............... > WEB SERVER
+                        <................         
+                            STEP2:HTTP RESPONSE
+            
+                             STATIC WEB PAGE
+
+
+     DYNAMIC WEBSITE:
+1.Dynamic web pages are written in languages such as CGI|AJAX|ASP|ASP.NET,etc.
+
+2.In dynamic web pages,the content of pages is different for different visitors.
+
+3.It takes more time to load than the static web page.
+
+4.Dynamic web pages are used where the information is changed frequently,for example,
+stock prices,weather information etc.
+
+                       STEP1:HTTP REQUEST
+           WEB BROWSER ................> WEB SERVER ..............> STEP2:CALLS AN APPLICATION PROGRAM IN RESPONSE TO THE HTTP REQUEST.                             
+                       <................            ..............> STEP3:THE PROGRAM EXECUTES AND PRODUCES HTML OUTPUTS.    
+                       STEP4:HTTP RESPONSE 
+                            
+                          DYNAMIC WEB PAGE                                 
