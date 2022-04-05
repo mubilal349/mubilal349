@@ -1,0 +1,30 @@
+#title{
+  color: chartreuse;
+}
+[href]{
+    color: darkblue;
+    font-family:  sans-serif;
+    font-size: 100;
+}
+a:hover{
+    color: black;
+}
+a:visited{
+  color: chartreuse;
+}
+img{
+  opacity: 1.0;
+}
+img:hover{
+  opacity: 0.5;
+  transition: .5s;
+  transform-origin: 0%;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  height: auto;
+  transform: rotateX(360deg);
+  transform: rotatey(60deg);
+  transform: rotatez(360-60deg);
+  background: none;
+
+}
