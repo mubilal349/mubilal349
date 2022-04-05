@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>class vs id</title>
+    <link rel="stylesheet" href="class vs id.css">
+</head>
+<body>
+    <h2 id="title">IDs vs Classes</h2>
+    <h2 id="title">Title # 02</h2>
+    <a href="#Home.html">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Admission">Admission</a>
+        <a href="#">Gallery</a>
+        <br><br>
+        <img src="logo.jpg" alt="logo" width="250px">
+    <script>
+        let title = document.getElementById("title");
+        console.log(title);
+
+        let boxes = document.getElementsByClassName("box");
+        console.log(boxes);
+    </script>
+</body>
+</html>
