@@ -1,0 +1,75 @@
+.main{
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.role{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    bottom: 10px;
+}
+.container{
+    list-style: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+:hover{
+    color: #fc0022;
+}
+fieldset{
+    border-radius: 1rem;
+    background-size: 25rem; 
+    background: #bf4;
+    background-repeat: no-repeat;
+}
+#main{
+    text-align: center;
+}
+#demo{
+    list-style: none;
+}
+.area{
+    text-align: center;
+}
+#select{
+    text-align: center;
+}
+#item{
+    place-items: center;
+    text-align: center;
+    display: grid;  
+    border-radius: 0%;
+    box-shadow: 0 1rem 1rem -0.7 rgba(0,0, 0, 0.5);
+    width: 40vw;
+    padding: 3rem 8rem;
+    background-image: url(clouds.jpg);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+.image{
+    background: none;
+}
+:visited{
+    color:#c67;
+}
+:hover{
+    color: #af0356;
+}
+:link{
+    color: #fc0022;
+}
+img{
+    opacity: 50%;
+    color: #ac2245;
+}
+img:hover{
+    opacity: 100%;
+    color: #ac2245;
+}
+.import{
+    float: right;
+    width: 100vh;
+}
