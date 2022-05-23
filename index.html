@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>New</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="russia-95.webp">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My snake game</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .game-board{
+            height: 90vmin;
+            width: 90vmin;
+            background: linear-gradient(orange, yellow);
+            grid-template-columns: repeat(16,1fr);
+            grid-template-rows: repeat(16,1fr);
+        }
+        .score-board{
+            background: yellow;
+            padding: 10px 20px;
+            border-radius: 20px;
+            width: 20%;
+            height: 2em;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-transform: capitalize;
+            
+        }
+        .snake-head{
+            background: url(snake\head.jpg);
+            background-size: 100% 100%;
+        }
+        .fruit{
+            background-image: url(/apple.jpg);
+            background-size: 100% 100% ;
+        }
+    </style>
 </head>
 <body>
-    <fieldset>
-      <dfn> <legend class="main">EMPLOYEE</legend></dfn>
-       <center><img src="russia-95.webp" alt="webp" width="400rem"></center>
-       <hr width="60%">
-       <form>
-           <nav class="role">
-               <ul class="container">
-                   <li id="main">
-                       <a href="#">Home</a>
-                       <a href="#">About</a>
-                       <a href="#">Contact</a>
-                       <a href="#">Admission-form</a>
-                       <a href="#">Gallery</a>
-                   </li>
-               </ul>
-           </nav>
-           <section id="Home">
-                   <h2>HOME activities</h2>
-                   <ul id="demo">
-                       <li>Gaming</li>
-                       <li>Exercise</li>
-                       <li>Refreshing</li>
-                       <li>Home work</li>
-                   </ul> 
-           </section>
-           <section id="About">
-                  <h1>About me</h1>
-                  <img src="bilal.jpg" alt="jpg" width="200rem"><br><br>
-                  <input type="button" onclick="alert('This is MUHAMMAD BILAL.I hope you like my new website.And i currently studied in UNIVERSITY OF SWAT at second semester at software engineering.')" value="click here"><br><br>
-           </section>
-           <section id="Contact">
-               <h1>Contact</h1>
-               <a href="tel:03344394694">contact me</a><br><br><br><br>
-           </section>
-           <section id="Admission-form">
-               <h1 id="select">Admission-form</h1>
-            <center> <form>
-                   <fieldset id="item">
-                       <legend class="area">Login-form</legend>
-                   <label for="Username">Username:</label>
-                   <input type="text" value="" id="username" name="Username" placeholder="Username"><br><br>
-                   <label for="Email">Email:</label>
-                   <input type="txt" value="" id="Email" name="Email" placeholder="Email"><br><br>
-                   <label for="Password">Password:</label>
-                   <input type="text" value="" id="Password" name="Password" placeholder="Password"><br><br>
-                   <label for="Confirm-password">Confirm-password:</label>
-                   <input type="text" value="" id="Confirm-password" name="Confirm-password" placeholder="Confirm-password"><br><br>
-                   <input type="submit" value="submit"><br>
-                   <input type="reset" value="reset">
-                 </fieldset>
-               </form></center><br><br><br><hr width="70%"><br>
-            </section>
-       <section id="Gallery">
-           <figure>
-        <img src="download.png" alt="png" class="image">
-        <img src="download (1).png" alt="png">
-        <figcaption>
-            This is PNG image.
-        </figcaption>
-        </figure>
-         <pre><p class="import">This website is about to EMPLOYEE Login-form hope you gys like it.Tnx for supporting.</p></pre>
-      </section>
-      <footer>
-          <center><small>&copy;.All rights reserved 2022.&REG;</small></center>
-      </footer>
-       </fieldset>
+    <div class="container">
+        <div class="game-board">
+         <div class="score-board">score : <span>0</span>
+            <div class="snake-head"></div>
+            <div class="fruit"></div>
+        </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
