@@ -1,6 +1,7 @@
 ## Hi there , i'm Muhammad Bilal
 
-![Typing Badge](https://img.shields.io/badge/Hello-I'm_Muhammad_Bilal-00bcd4?style=for-the-badge)
+![Typing Animation](https://your-image-host.com/typing.gif)
+
 
 
 ## 🌐 Socials:
